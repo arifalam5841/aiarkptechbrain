@@ -1,0 +1,46 @@
+import {
+  Banknote,
+  Clock3,
+  FileQuestion,
+  Laptop,
+  MonitorPlay,
+  Presentation,
+  UsersRound,
+} from 'lucide-react';
+
+export const events = [
+  {
+    number: '01',
+    slug: 'promptignite',
+    title: 'PromptIgnite',
+    category: 'AI Hackathon',
+    iconLabel: 'AI',
+    description:
+      'Build an AI-powered solution using any models or tools, then demonstrate it live.',
+    meta: [
+      { label: '3 members', icon: UsersRound },
+      { label: 'Rs.300 per team', icon: Banknote },
+      { label: 'Bring laptop', icon: Laptop },
+      { label: 'Live demo', icon: MonitorPlay },
+    ],
+    note: 'Open to all departments & colleges',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSdTbW--y4VB0qgOw10vl7PYtllzZkQ8bGzDBqr1S961HdT7Ow/viewform?usp=header',
+  },
+  {
+    number: '02',
+    slug: 'paper-presentation',
+    title: 'Technical Paper Presentation',
+    category: 'Research & Presentation',
+    icon: Presentation,
+    description:
+      'Present a research or technical paper through slides, followed by questions from the judges.',
+    meta: [
+      { label: '2 members', icon: UsersRound },
+      { label: 'Rs.300 per team', icon: Banknote },
+      { label: '6-8 minutes', icon: Clock3 },
+      { label: 'Slides + Q&A', icon: FileQuestion },
+    ],
+    note: 'Bring college ID & presentation',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSeyWQtOy2Wx2DyTEvf9foVQlwxyokR8gbCwAp_6Dy6KEgeRyw/viewform?usp=header',
+  },
+];
