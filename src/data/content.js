@@ -76,10 +76,10 @@ export const transport = [
 ];
 
 export const socialLinks = [
-  { icon: Linkedin, label: 'LinkedIn', href: '#' },
-  { icon: Instagram, label: 'Instagram', href: '#' },
-  { icon: Facebook, label: 'Facebook', href: '#' },
-  { icon: Youtube, label: 'YouTube', href: '#' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/company/aiktc-extc/?originalSubdomain=in' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/co.arkp/' },
+
+  { icon: Youtube, label: 'YouTube', href: 'https://www.youtube.com/@AIKTCTV' },
 ];
 
 export const bottomNav = [

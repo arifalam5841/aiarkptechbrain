@@ -47,11 +47,6 @@ export default function Footer() {
 
       <div className="section-container footer-bottom">
         <p>© 2026 A.I.A.R.K. Polytechnic. All rights reserved.</p>
-        <div>
-          <a href="/privacy">Privacy Policy</a>
-          <span>|</span>
-          <a href="/terms">Terms</a>
-        </div>
       </div>
     </footer>
   );
