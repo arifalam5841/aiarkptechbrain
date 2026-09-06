@@ -42,7 +42,11 @@ export default function EventSelection() {
             Choose Your <span>Event</span>
           </h2>
           <p>Pick your challenge and represent your team.</p>
+
+          <span className='lastdate'>(Registration  7th - 25th Sept)</span>
+
         </div>
+
         <div className="event-grid">
           {events.map((event) => (
             <EventCard event={event} key={event.slug} />

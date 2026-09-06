@@ -202,6 +202,7 @@ img {
   background: transparent;
   color: var(--white);
   cursor: pointer;
+  display: none;
 }
 
 .mobile-menu {
@@ -239,6 +240,7 @@ img {
   display: flex;
   align-items: stretch;
   border-bottom: 1px solid rgba(182, 255, 0, 0.16);
+  padding: 10px 0 150px 0 ;
 }
 
 .hero-grid {
@@ -1887,6 +1889,13 @@ img {
   font-size: 0.9rem;
 }
 
+.lastdate{
+  margin-top: 10px;
+  font-size: 12px;
+    color: var(--warning);
+    font-family: 'Space Grotesk', Inter, sans-serif;
+}
+
 .reveal {
   animation: sectionRise 520ms ease both;
 }
@@ -1906,6 +1915,12 @@ img {
   .desktop-nav {
     display: none;
   }
+
+  
+  .icon-button {
+ 
+  display: block;
+}
 
   .about-section,
   .venue-panel,
@@ -1946,6 +1961,11 @@ img {
     padding-bottom: 82px;
   }
 
+
+  .icon-button {
+ 
+  display: block;
+}
   .section-container {
     width: min(100% - 40px, 1180px);
   }
@@ -1970,6 +1990,7 @@ img {
 
   .hero-section {
     /* min-height: calc(100svh - var(--header-height)); */
+    padding: 0;
   }
 
   .hero-grid {

@@ -29,7 +29,7 @@ export default function Hero() {
 
           <div className="date-badge">
             <CalendarDays size={18} aria-hidden="true" />
-            EVENT DATE - TO BE CONFIRMED
+            EVENT DATE - 1st October
           </div>
 
           <div className="button-row">
