@@ -1,4 +1,4 @@
-import ideaMeetImage from '../../assets/images/ideameet.webp';
+import ideaMeetImage from '../../assets/images/banner.webp';
 import { aboutChips } from '../../data/content.js';
 
 export default function AboutEvent() {
@@ -26,7 +26,7 @@ export default function AboutEvent() {
       </div>
 
       <div className="about-visual">
-        <span className="drawn-arrow">↗</span>
+        {/* <span className="drawn-arrow">↗</span> */}
         <img
           className="about-photo"
           src={ideaMeetImage}
@@ -35,13 +35,13 @@ export default function AboutEvent() {
           height="946"
           loading="lazy"
         />
-        <span className="stacked-sticker">
+        {/* <span className="stacked-sticker">
           Build
           <br />
           Present
           <br />
           Compete
-        </span>
+        </span> */}
       </div>
     </section>
   );
