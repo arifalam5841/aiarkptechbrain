@@ -43,7 +43,7 @@ export default function EventSelection() {
           </h2>
           <p>Pick your challenge and represent your team.</p>
 
-          <span className='lastdate'>(Registration  7th - 25th Sept)</span>
+          <span className='lastdate'>(Registration  8th - 25th Sept)</span>
 
         </div>
 
