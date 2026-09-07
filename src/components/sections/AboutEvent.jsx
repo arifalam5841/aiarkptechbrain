@@ -1,4 +1,4 @@
-import ideaMeetImage from '../../assets/images/banner.webp';
+import ideaMeetImage from '../../assets/images/banner2.webp';
 import { aboutChips } from '../../data/content.js';
 
 export default function AboutEvent() {
