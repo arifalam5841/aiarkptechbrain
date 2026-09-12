@@ -23,7 +23,7 @@ export const events = [
       { label: 'Bring laptop', icon: Laptop },
       { label: 'Live demo', icon: MonitorPlay },
     ],
-    note: 'Open to all departments & colleges',
+    note: 'Open to all colleges',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLScvldWCSomOXshOVAXmOQQOoufoeJN-g6Ac6ooAOZwjmaagkA/viewform',
   },
   {
