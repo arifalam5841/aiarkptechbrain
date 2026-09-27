@@ -25,7 +25,7 @@ function EventCard({ event }) {
       </div>
       <p className="event-note">{event.note}</p>
       <a className="primary-button event-button" href={event.href}>
-        Register
+        Registration Closed
         <ArrowRight size={20} aria-hidden="true" />
       </a>
     </article>
