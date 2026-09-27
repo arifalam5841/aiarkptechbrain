@@ -24,7 +24,7 @@ export const events = [
       { label: 'Live demo', icon: MonitorPlay },
     ],
     note: 'Open to all colleges',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLScvldWCSomOXshOVAXmOQQOoufoeJN-g6Ac6ooAOZwjmaagkA/viewform',
+    href: '',
   },
   {
     number: '02',
@@ -41,6 +41,6 @@ export const events = [
       { label: 'Slides + Q&A', icon: FileQuestion },
     ],
     note: 'Bring college ID & presentation',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe5vr-X5kz8I2EqhEz_OJcDHlG5u5-AQmqVUipMsS4YJdfvew/viewform?usp=send_form',
+    href: '',
   },
 ];
